@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(242, 242, 242);
+}
+
+/* header style*/
+
+.logo-contaienr, .header-tool-container {
+    display: inline-block;
+}
+
+.header-container {
+    padding-top: 32px;
+    padding-left: 18px;
+    text-align: left;
+}
+
+.logo-contaienr {
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    color: #626262;
+}
+
+.logo-top span{
+    font-size: 24px;
+    font-weight: 500;
+    vertical-align: top;
+}
+
+.logo-top img{
+    width: 27px;
+    height: 27px;
+    margin-left: 4px;
+}
+
+.logo-bottom {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-tool-container {
+    position: relative;
+    float: right;
+    right: 24px;
+    top: 16px;
+}
+
+.header-tool-container img{
+    width: 28px;
+    height: 28px;
+    margin-left: 12px;
+}
+
+
+
+/*msg-container style*/
+.message-container {
+    margin-top: 8px;
+    padding: 0px 12px;
+    overflow: scroll;
+    height: 630px;
+}
+
+.msg-item-container {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    -webkit-box-shadow: #F2F2F2 0px 0px 4px;
+    -moz-box-shadow: #F2F2F2 0px 0px 4px;
+    box-shadow: #F2F2F2 0px 0px 4px;
+}
+
+.msg-sender-container {
+    padding: 4px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.msg-sender-container img{
+    width: 28px;
+    height: 28px;
+    vertical-align: center;
+}
+
+
+.sender-name-container {
+    display: inline-block;
+    text-align: left;
+    margin-left: 4px;
+}
+
+.sender-name-container span{
+    display: block;
+}
+
+.sender-name {
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+
+.sender-office {
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+    color: #b0afad;
+}
+
+.send-time {
+    position: relative;
+    float: right;
+    right: 12px;
+    top: 3px;
+    font-size: 14px;
+    color: #7f7f7f;
+}
+
+.msg-content-container {
+    margin-top: 6px;
+}
+
+.msg-content-container span{
+    color: #538ac4;
+    font-size: 16px;
+}
+
+.msg-text {
+    font-size: 14px;
+    margin-top: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+
+
+
+/*foot container*/
+.foot-container {
+    position: absolute;
+    bottom: 0px;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+
+    padding-top: 12px;
+}
+
+.foot-container span {
+    margin: 10px 14px;
+    vertical-align: center;
+}
+
+.activate-icon {
+    width: 28px;
+    height: 28px;
+    vertical-align: top;
+}
+
+.today-text {
+    color: #c0bfbe;
+    font-size: 18px;
+    font-weight: 500;
+    height: 28px;
+    line-height: 28px;
+    vertical-align: top;
+}
+
+.deactivate-icon {
+    width: 26px;
+    height: 26px;
+}

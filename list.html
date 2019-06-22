@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>List</title>
+    <link rel="stylesheet" type="text/css" href="src/css/list_style.css">
+</head>
+
+<script type="text/javascript" src="src/js/jquery.min.js"></script>
+<script type="text/javascript" src="src/js/list.js"></script>
+
+<body>
+
+<div class="header-container">
+
+    <div class="logo-contaienr">
+        <div class="logo-top">
+            <span>iTime</span>
+            <img src="src/icon/logo_time.png"/>
+        </div>
+        <div class="logo-bottom">
+            我的项目列表
+        </div>
+    </div>
+
+    <div class="header-tool-container">
+        <img src="src/icon/history.png"/>
+        <img src="src/icon/add-task.png"/>
+    </div>
+
+</div>
+
+
+
+<div class="search-container">
+    <form action="" class="search-form">
+        <input type="text" class="search-input" placeholder="搜索">
+        <img src="src/icon/search.png" class="search-btn"/>
+    </form>
+    <button class="filter-btn">
+        <img src="src/icon/filter.png">
+    </button>
+</div>
+
+<div class="filter-choice-container">
+    <div class="filter" id="f_0">待完成</div>
+    <div class="filter" id="f_1">进行中</div>
+    <div class="filter" id="f_2">已完成</div>
+    <div class="filter" id="f_3">全部的</div>
+</div>
+
+
+<div class="loading-container">
+    <img src="src/icon/loading.gif"/>
+</div>
+
+<div class="item-list-container" id="item-list"></div>
+
+
+
+<div class="foot-container">
+
+    <span>
+        <img src="src/icon/de_clock.png" class="activate-icon"/>
+        <a class="today-text">TODAY</a>
+    </span>
+
+    <span>
+        <img src="src/icon/diary.png" class="deactivate-icon"/>
+    </span>
+
+    <span>
+        <img src="src/icon/a_list.png" class="deactivate-icon"/>
+    </span>
+
+    <span>
+        <img src="src/icon/statistics.png" class="deactivate-icon"/>
+    </span>
+
+    <span>
+        <img src="src/icon/user.png" class="deactivate-icon"/>
+    </span>
+
+</div>
+
+</body>
+</html>

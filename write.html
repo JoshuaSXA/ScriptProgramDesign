@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Write</title>
+    <link rel="stylesheet" type="text/css" href="src/css/write_style.css">
+</head>
+
+<script type="text/javascript" src="src/js/jquery.min.js"></script>
+<script type="text/javascript" src="src/js/write.js"></script>
+
+<body>
+
+<div class="header-container">
+    <img src="src/icon/return.png" class="return-img">
+    <span class="return-text">返回</span>
+    <span class="header-title">撰写日志</span>
+    <img src="src/icon/audio.png" class="audio-img"/>
+</div>
+
+<div class="icon-choose-container">
+    <div class="choose-icon-text">今日天气</div>
+    <div class="icon-table-container">
+        <table>
+            <tr>
+                <th class="icon activate-icon" id="w-0">
+                    <img src="src/icon/w_0.png"/>
+                </th>
+                <th class="icon deactivate-icon" id="w-1">
+                    <img src="src/icon/w_1.png"/>
+                </th>
+                <th class="icon deactivate-icon" id="w-2">
+                    <img src="src/icon/w_2.png"/>
+                </th>
+                <th class="icon deactivate-icon" id="w-3">
+                    <img src="src/icon/w_3.png"/>
+                </th>
+                <th class="icon deactivate-icon" id="w-4">
+                    <img src="src/icon/w_4.png"/>
+                </th>
+                <th class="icon deactivate-icon" id="w-5">
+                    <img src="src/icon/w_5.png"/>
+                </th>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="title-input-container item-content">
+    <div class="icon-container">
+        <img src="src/icon/title.png">
+    </div>
+    <div class="input-container">
+        <input type="text" placeholder="点击输入标题" id="title-input">
+    </div>
+</div>
+
+<div class="textarea-container">
+    <textarea id="content-input" rows="16" cols="30" placeholder="记录生活点滴"></textarea>
+</div>
+
+
+<div class="save-btn-container">
+    <button id="submit">保存发布</button>
+</div>
+
+<div class="mode-container" style="display: none;">
+    <div class="mask"></div>
+    <div class="mode-status-container">
+        <img src="src/icon/success.png"/>
+        <div>发布成功</div>
+    </div>
+</div>
+
+</body>
+</html>

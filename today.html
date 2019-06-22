@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Today</title>
+    <link rel="stylesheet" type="text/css" href="src/css/today_style.css">
+</head>
+
+<script type="text/javascript" src="src/js/jquery.min.js"></script>
+<script type="text/javascript" src="src/js/today.js"></script>
+
+<body leftmargin="0" rightmargin="0">
+
+<div class="header-container">
+
+    <div class="logo-contaienr">
+        <div class="logo-top">
+            <span>iTime</span>
+            <img src="src/icon/logo_time.png"/>
+        </div>
+        <div class="logo-bottom">
+            时间投资计划
+        </div>
+    </div>
+
+    <div class="header-tool-container">
+        <img id="batch-btn" src="src/icon/history.png"/>
+        <img src="src/icon/theme.png"/>
+    </div>
+
+</div>
+
+
+<div class="time-container">
+    <div class="en-date">
+        <span class="day-text">20</span>
+        <span class="wed-text">THU</span>
+    </div>
+    <div class="ch-date">
+        <span class="ch-wed-text">星期四</span>
+        <span class="ch-date-text">2019年6月</span>
+    </div>
+
+    <div class="time-text">14:57</div>
+</div>
+
+<div class="alert-msg-container">
+    <span>上次同步时间：</span>
+    <span id="refresh-time">2019年6月20日 13:56</span>
+</div>
+
+<div class="filter-choice-container">
+    <div class="filter" id="f_0">全部完成</div>
+    <div class="filter" id="f_1">全部取消</div>
+    <div class="filter" id="f_2">取消操作</div>
+</div>
+
+<div class="add-item-container" style="display: none;">
+    <div class="icon-msg-container">
+        <img src="src/icon/items.png"/>
+        <span>还没有任何项目</span>
+    </div>
+    <div class="add-button-container">
+        <button id="add-btn">
+            <img src="src/icon/add.png"/>
+            <span>点击添加</span>
+        </button>
+    </div>
+</div>
+
+<div class="loading-container">
+    <img src="src/icon/loading.gif"/>
+</div>
+
+<div class="item-list-container" id="item-list"></div>
+
+
+
+<div class="foot-container">
+    <span>
+        <img src="src/icon/clock.png" class="activate-icon"/>
+        <a class="today-text">TODAY</a>
+    </span>
+
+    <span>
+        <img src="src/icon/diary.png" class="deactivate-icon"/>
+    </span>
+
+    <span>
+        <img src="src/icon/list.png" class="deactivate-icon"/>
+    </span>
+
+    <span>
+        <img src="src/icon/statistics.png" class="deactivate-icon"/>
+    </span>
+
+    <span>
+        <img src="src/icon/user.png" class="deactivate-icon"/>
+    </span>
+
+</div>
+
+</body>
+</html>

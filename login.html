@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="src/css/login_style.css">
+</head>
+
+<script type="text/javascript" src="src/js/jquery.min.js"></script>
+<script type="text/javascript" src="src/js/login.js"></script>
+
+<body>
+
+<section class="aui-flexView">
+    <header class="aui-navBar aui-navBar-fixed">
+        <a href="javascript:;" class="aui-navBar-item">
+            <i class="icon icon-return"></i>
+        </a>
+        <div class="aui-center">
+            <span class="aui-center-title"></span>
+        </div>
+    </header>
+    <section class="aui-scrollView">
+        <div class="aui-ver-head">
+            <img src="src/icon/bg.png" alt="">
+        </div>
+        <div class="aui-ver-form">
+            <h2>短信快捷登录</h2>
+            <div class="aui-flex">
+                <div class="aui-flex-box">
+                    <i class="icon icon-phone"></i>
+                    <input id="phone1" type="text" autocomplete="off" placeholder="手机号码" >
+                </div>
+            </div>
+            <div class="aui-flex">
+                <div class="aui-flex-box">
+                    <i class="icon icon-code"></i>
+                    <input id="code1" type="text" autocomplete="off" placeholder="验证码">
+                </div>
+                <div class="aui-button-code">
+                    <input id="btnSendCode1" type="button" class="btn btn-default" value="获取验证码" onClick="sendMessage1()" />
+                </div>
+            </div>
+            <div class="aui-ver-button">
+                <button onClick="binding()">立即登录 / 注册</button>
+            </div>
+            <div class="aui-cell-box">
+                <label class="cell-right">
+                    <input type="checkbox" value="1" name="checkbox" checked="checked">
+                    <i class="cell-checkbox-icon"></i>
+                    <em>同意iTime注册协议</em>
+                </label>
+            </div>
+
+        </div>
+
+    </section>
+</section>
+
+</body>
+</html>
