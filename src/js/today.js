@@ -282,4 +282,16 @@ $(document).ready(function () {
 
     });
 
+    $("#diary-page").click(function () {
+        $(window).attr('location','diary.html');
+    });
+
+    $("#list-page").click(function () {
+        $(window).attr('location','list.html');
+    });
+
+    $("#my-page").click(function () {
+        $(window).attr('location','my.html');
+    });
+
 });

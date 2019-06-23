@@ -92,7 +92,11 @@ $(document).ready(function () {
                     console.log("Task creation succeeded!");
                     $(".mode-container").fadeIn(500, function () {
                         setTimeout(function () {
-                            $(window).attr('location','list.html');
+                            if(srcPage == "today") {
+                                $(window).attr('location','today.html');
+                            } else {
+                                $(window).attr('location','list.html');
+                            }
                         }, 1000);
                     });
                 } else {
@@ -128,5 +132,13 @@ $(document).ready(function () {
         $(".activate-icon").attr("class", "deactivate-icon icon");
         $(this).attr("class", "activate-icon icon");
         iconIndex = parseInt($(this).attr("id"));
+    });
+
+    $(".return-text").click(function () {
+        if(srcPage == "today") {
+            $(window).attr('location','today.html');
+        } else {
+            $(window).attr('location','list.html');
+        }
     });
 });

@@ -151,6 +151,10 @@ $(document).ready(function () {
         }, 600);
     });
 
+    $("#add-btn").click(function () {
+        $(window).attr('location','add.html');
+    });
+
     $(".search-btn").click(function () {
         let keyword = $(".search-input").val();
         if(!keyword.length) {
@@ -231,6 +235,18 @@ $(document).ready(function () {
     $("#item-list").on('touchend', '.status', function(e){
         e.stopPropagation();
         clearTimeout(time);
+    });
+
+    $("#today-page").click(function () {
+        $(window).attr('location','today.html');
+    });
+
+    $("#diary-page").click(function () {
+        $(window).attr('location','diary.html');
+    });
+
+    $("#my-page").click(function () {
+        $(window).attr('location','my.html');
     });
 
 });

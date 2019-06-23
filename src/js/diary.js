@@ -99,4 +99,20 @@ $(document).ready(function () {
 
     getAllDiary(userID);
 
+    $("#today-page").click(function () {
+        $(window).attr('location','today.html');
+    });
+
+    $("#list-page").click(function () {
+        $(window).attr('location','list.html');
+    });
+
+    $("#my-page").click(function () {
+        $(window).attr('location','my.html');
+    });
+
+    $("#add-btn").click(function () {
+        $(window).attr('location','write.html');
+    });
+
 });

@@ -66,4 +66,8 @@ $(document).ready(function () {
         submitDiary();
     });
 
+    $(".return-text").click(function () {
+        $(window).attr('location','diary.html');
+    });
+
 });
